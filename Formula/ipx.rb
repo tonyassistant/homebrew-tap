@@ -5,10 +5,10 @@ class Ipx < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tonyassistant/ipx/releases/download/v0.1.3/ipx-aarch64-apple-darwin.tar.gz"
-      sha256 "148ff025d7f813e5bcf267eae3e53a98786a5d978fbe5caeab0d0c320a2687cf"
+      url "https://github.com/tonyassistant/ipx/releases/download/v0.1.0/ipx-aarch64-apple-darwin.tar.gz"
+      sha256 "abf67b9aadef29a75473bcf71bd96708fa7b03c09e9d99c4c8431b1961602a90"
     else
-      odie "Intel macOS bottle for ipx v0.1.3 is still publishing, try again shortly."
+      odie "Intel macOS archive for ipx v0.1.0 is not published yet."
     end
   end
 
