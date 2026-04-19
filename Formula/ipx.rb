@@ -1,7 +1,7 @@
 class Ipx < Formula
   desc "Keyboard-first macOS network operations TUI"
   homepage "https://github.com/tonyassistant/ipx"
-  version "0.1.3"
+  version "0.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
